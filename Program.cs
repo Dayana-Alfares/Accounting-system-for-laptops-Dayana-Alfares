@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ist
+namespace computer_pro
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace ist
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginScreen());
+            Application.Run(new Form1());
         }
     }
 }
