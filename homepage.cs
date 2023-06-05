@@ -29,16 +29,16 @@ namespace computer_pro
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-          //  hp ob = new hp();
-         //   this.Hide();
-          //  ob.ShowDialog();
+            hp ob = new hp();
+            this.Hide();
+            ob.ShowDialog();
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-          //  mac ob = new mac();
-          //  this.Hide();
-         //   ob.ShowDialog();
+            mac ob = new mac();
+            this.Hide();
+            ob.ShowDialog();
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
@@ -57,6 +57,16 @@ namespace computer_pro
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

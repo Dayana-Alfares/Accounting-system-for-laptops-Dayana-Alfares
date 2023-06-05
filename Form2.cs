@@ -32,7 +32,7 @@ namespace computer_pro
         {
            
             SqlConnection cn;
-            cn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\abdal\OneDrive\Desktop\‏‏dayana_45\dayana_45\computer_pro\db_lopto.mdf;Integrated Security=True");
+            cn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\computer_pro\db_lopto.mdf;Integrated Security=True");
 
             string add = " insert into tb_buy (Name,Adres,Orde,marka,Email,Phone) values ('" + t1.Text + "', '" + t2.Text + "' , '" + t3.Text + "','" + t4.Text + "' ,'" + t5.Text+ "','" + t6.Text + "')";
 
@@ -54,11 +54,6 @@ namespace computer_pro
             MessageBox.Show("Your request has been added... ");
             cn.Close();
             Show();
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

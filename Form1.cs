@@ -28,7 +28,7 @@ namespace computer_pro
             try
             {
 
-                SqlConnection cn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\abdal\OneDrive\Desktop\‏‏dayana_45\dayana_45\computer_pro\db_lopto.mdf;Integrated Security=True");
+                SqlConnection cn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\computer_pro\db_lopto.mdf;Integrated Security=True");
 
                 if (cn.State == ConnectionState.Closed)
                     cn.Open();

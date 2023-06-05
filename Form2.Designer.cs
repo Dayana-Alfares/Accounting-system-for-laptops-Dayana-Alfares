@@ -44,18 +44,18 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -77,14 +77,13 @@
             this.t1.FocusedState.Parent = this.t1;
             this.t1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.t1.HoverState.Parent = this.t1;
-            this.t1.Location = new System.Drawing.Point(130, 226);
-            this.t1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.t1.Location = new System.Drawing.Point(87, 147);
             this.t1.Name = "t1";
             this.t1.PasswordChar = '\0';
             this.t1.PlaceholderText = "";
             this.t1.SelectedText = "";
             this.t1.ShadowDecoration.Parent = this.t1;
-            this.t1.Size = new System.Drawing.Size(300, 55);
+            this.t1.Size = new System.Drawing.Size(200, 36);
             this.t1.TabIndex = 0;
             this.t1.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
@@ -102,14 +101,13 @@
             this.t2.FocusedState.Parent = this.t2;
             this.t2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.t2.HoverState.Parent = this.t2;
-            this.t2.Location = new System.Drawing.Point(130, 291);
-            this.t2.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.t2.Location = new System.Drawing.Point(87, 189);
             this.t2.Name = "t2";
             this.t2.PasswordChar = '\0';
             this.t2.PlaceholderText = "";
             this.t2.SelectedText = "";
             this.t2.ShadowDecoration.Parent = this.t2;
-            this.t2.Size = new System.Drawing.Size(300, 80);
+            this.t2.Size = new System.Drawing.Size(200, 52);
             this.t2.TabIndex = 0;
             // 
             // t3
@@ -130,11 +128,10 @@
             "hp-a255405",
             "hp-a255406"});
             this.t3.ItemsAppearance.Parent = this.t3;
-            this.t3.Location = new System.Drawing.Point(130, 395);
-            this.t3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.t3.Location = new System.Drawing.Point(87, 257);
             this.t3.Name = "t3";
             this.t3.ShadowDecoration.Parent = this.t3;
-            this.t3.Size = new System.Drawing.Size(288, 36);
+            this.t3.Size = new System.Drawing.Size(193, 36);
             this.t3.TabIndex = 1;
             // 
             // t4
@@ -155,11 +152,10 @@
             "Hp",
             "Asus"});
             this.t4.ItemsAppearance.Parent = this.t4;
-            this.t4.Location = new System.Drawing.Point(130, 460);
-            this.t4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.t4.Location = new System.Drawing.Point(87, 299);
             this.t4.Name = "t4";
             this.t4.ShadowDecoration.Parent = this.t4;
-            this.t4.Size = new System.Drawing.Size(288, 36);
+            this.t4.Size = new System.Drawing.Size(193, 36);
             this.t4.TabIndex = 1;
             // 
             // t5
@@ -176,14 +172,13 @@
             this.t5.FocusedState.Parent = this.t5;
             this.t5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.t5.HoverState.Parent = this.t5;
-            this.t5.Location = new System.Drawing.Point(130, 525);
-            this.t5.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.t5.Location = new System.Drawing.Point(87, 341);
             this.t5.Name = "t5";
             this.t5.PasswordChar = '\0';
             this.t5.PlaceholderText = "";
             this.t5.SelectedText = "";
             this.t5.ShadowDecoration.Parent = this.t5;
-            this.t5.Size = new System.Drawing.Size(300, 55);
+            this.t5.Size = new System.Drawing.Size(200, 36);
             this.t5.TabIndex = 0;
             this.t5.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
@@ -201,74 +196,67 @@
             this.t6.FocusedState.Parent = this.t6;
             this.t6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.t6.HoverState.Parent = this.t6;
-            this.t6.Location = new System.Drawing.Point(130, 589);
-            this.t6.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.t6.Location = new System.Drawing.Point(87, 383);
             this.t6.Name = "t6";
             this.t6.PasswordChar = '\0';
             this.t6.PlaceholderText = "";
             this.t6.SelectedText = "";
             this.t6.ShadowDecoration.Parent = this.t6;
-            this.t6.Size = new System.Drawing.Size(300, 55);
+            this.t6.Size = new System.Drawing.Size(200, 36);
             this.t6.TabIndex = 0;
             this.t6.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(69, 243);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(46, 158);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 20);
+            this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Name";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(69, 320);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(46, 208);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 20);
+            this.label2.Size = new System.Drawing.Size(34, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Adres";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(69, 414);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(46, 269);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 20);
+            this.label3.Size = new System.Drawing.Size(33, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Order";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(69, 478);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(46, 311);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 20);
+            this.label4.Size = new System.Drawing.Size(36, 13);
             this.label4.TabIndex = 2;
             this.label4.Text = "marka";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(69, 543);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(46, 353);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(48, 20);
+            this.label5.Size = new System.Drawing.Size(32, 13);
             this.label5.TabIndex = 2;
             this.label5.Text = "Email";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(69, 611);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(46, 397);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(55, 20);
+            this.label6.Size = new System.Drawing.Size(38, 13);
             this.label6.TabIndex = 2;
             this.label6.Text = "Phone";
             // 
@@ -277,32 +265,18 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Location = new System.Drawing.Point(-24, -5);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel1.Location = new System.Drawing.Point(-16, -3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(984, 66);
+            this.panel1.Size = new System.Drawing.Size(656, 43);
             this.panel1.TabIndex = 6;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(524, 15);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(70, 45);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 11;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(22, 15);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox3.Location = new System.Drawing.Point(15, 10);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(70, 45);
+            this.pictureBox3.Size = new System.Drawing.Size(47, 29);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 10;
             this.pictureBox3.TabStop = false;
@@ -311,20 +285,18 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Location = new System.Drawing.Point(-3, 740);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel2.Location = new System.Drawing.Point(-2, 481);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(984, 66);
+            this.panel2.Size = new System.Drawing.Size(656, 43);
             this.panel2.TabIndex = 7;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(22, 15);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(15, 10);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(70, 45);
+            this.pictureBox1.Size = new System.Drawing.Size(47, 29);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
@@ -338,11 +310,10 @@
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(130, 654);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2Button1.Location = new System.Drawing.Point(87, 425);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(218, 58);
+            this.guna2Button1.Size = new System.Drawing.Size(145, 38);
             this.guna2Button1.TabIndex = 8;
             this.guna2Button1.Text = "Request";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -350,20 +321,30 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(168, 86);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox2.Location = new System.Drawing.Point(112, 56);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(225, 108);
+            this.pictureBox2.Size = new System.Drawing.Size(150, 70);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(349, 10);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(47, 29);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 11;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(588, 757);
+            this.ClientSize = new System.Drawing.Size(392, 492);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.panel2);
@@ -381,16 +362,14 @@
             this.Controls.Add(this.t5);
             this.Controls.Add(this.t1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form2";
             this.Text = "Form2";
-            this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

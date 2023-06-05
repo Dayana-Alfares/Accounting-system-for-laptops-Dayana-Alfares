@@ -19,7 +19,7 @@ namespace computer_pro
         SqlConnection cn;
         SqlDataAdapter da;
         DataSet ds;
-        string sqllink = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\abdal\OneDrive\Desktop\‏‏dayana_45\dayana_45\computer_pro\db_lopto.mdf;Integrated Security=True";
+        string sqllink = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\aliba\source\repos\computer_pro\computer_pro\db_lopto.mdf;Integrated Security=True";
 
         void ASUS()
         {
